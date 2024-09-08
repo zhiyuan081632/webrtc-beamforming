@@ -1,0 +1,1 @@
+./webrtc-bf -i audio/record_lrmic_dis5cm_2231_2ch.wav -mic_positions "-0.025 0 0 0.025 0 0" -o audio/record_lrmic_dis5cm_2231_2ch_bf.wav

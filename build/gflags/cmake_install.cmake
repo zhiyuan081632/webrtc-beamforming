@@ -1,4 +1,4 @@
-# Install script for directory: /home/ctw/webrtc_aec/wav-beamforming/gflags
+# Install script for directory: /media/sf_ans/beamforming/webrtc-beamforming/gflags
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,36 +37,41 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/ctw/webrtc_aec/wav-beamforming/build/gflags/libgflags.a")
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/ctw/webrtc_aec/wav-beamforming/build/gflags/libgflags_nothreads.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/media/sf_ans/beamforming/webrtc-beamforming/build/gflags/libgflags.a")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/media/sf_ans/beamforming/webrtc-beamforming/build/gflags/libgflags_nothreads.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/gflags" TYPE FILE FILES
-    "/home/ctw/webrtc_aec/wav-beamforming/build/gflags/include/gflags/gflags.h"
-    "/home/ctw/webrtc_aec/wav-beamforming/build/gflags/include/gflags/gflags_declare.h"
-    "/home/ctw/webrtc_aec/wav-beamforming/build/gflags/include/gflags/gflags_completions.h"
-    "/home/ctw/webrtc_aec/wav-beamforming/build/gflags/include/gflags/gflags_gflags.h"
+    "/media/sf_ans/beamforming/webrtc-beamforming/build/gflags/include/gflags/gflags.h"
+    "/media/sf_ans/beamforming/webrtc-beamforming/build/gflags/include/gflags/gflags_declare.h"
+    "/media/sf_ans/beamforming/webrtc-beamforming/build/gflags/include/gflags/gflags_completions.h"
+    "/media/sf_ans/beamforming/webrtc-beamforming/build/gflags/include/gflags/gflags_gflags.h"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/gflags" TYPE FILE RENAME "gflags-config.cmake" FILES "/home/ctw/webrtc_aec/wav-beamforming/build/gflags/gflags-config-install.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/gflags" TYPE FILE RENAME "gflags-config.cmake" FILES "/media/sf_ans/beamforming/webrtc-beamforming/build/gflags/gflags-config-install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/gflags" TYPE FILE FILES "/home/ctw/webrtc_aec/wav-beamforming/build/gflags/gflags-config-version.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/gflags" TYPE FILE FILES "/media/sf_ans/beamforming/webrtc-beamforming/build/gflags/gflags-config-version.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/gflags/gflags-targets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/gflags/gflags-targets.cmake"
-         "/home/ctw/webrtc_aec/wav-beamforming/build/gflags/CMakeFiles/Export/lib/cmake/gflags/gflags-targets.cmake")
+         "/media/sf_ans/beamforming/webrtc-beamforming/build/gflags/CMakeFiles/Export/lib/cmake/gflags/gflags-targets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/gflags/gflags-targets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -75,13 +80,13 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/gflags" TYPE FILE FILES "/home/ctw/webrtc_aec/wav-beamforming/build/gflags/CMakeFiles/Export/lib/cmake/gflags/gflags-targets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/gflags" TYPE FILE FILES "/media/sf_ans/beamforming/webrtc-beamforming/build/gflags/CMakeFiles/Export/lib/cmake/gflags/gflags-targets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/gflags" TYPE FILE FILES "/home/ctw/webrtc_aec/wav-beamforming/build/gflags/CMakeFiles/Export/lib/cmake/gflags/gflags-targets-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/gflags" TYPE FILE FILES "/media/sf_ans/beamforming/webrtc-beamforming/build/gflags/CMakeFiles/Export/lib/cmake/gflags/gflags-targets-noconfig.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE PROGRAM FILES "/home/ctw/webrtc_aec/wav-beamforming/gflags/src/gflags_completions.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE PROGRAM FILES "/media/sf_ans/beamforming/webrtc-beamforming/gflags/src/gflags_completions.sh")
 endif()
 

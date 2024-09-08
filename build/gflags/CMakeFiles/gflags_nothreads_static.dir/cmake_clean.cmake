@@ -1,9 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.o"
-  "CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.o"
+  "CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.o.d"
   "CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.o"
-  "libgflags_nothreads.pdb"
+  "CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.o.d"
+  "CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.o"
+  "CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.o.d"
   "libgflags_nothreads.a"
+  "libgflags_nothreads.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
