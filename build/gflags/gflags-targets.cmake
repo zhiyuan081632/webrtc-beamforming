@@ -46,6 +46,7 @@ add_library(gflags_static STATIC IMPORTED)
 
 set_target_properties(gflags_static PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "/media/sf_ans/beamforming/webrtc-beamforming/build/gflags/include"
+  INTERFACE_LINK_LIBRARIES "-lpthread"
 )
 
 # Create imported target gflags_nothreads_static

@@ -1,2 +1,2 @@
-/usr/bin/ar qc libgflags.a CMakeFiles/gflags_static.dir/src/gflags.cc.o CMakeFiles/gflags_static.dir/src/gflags_reporting.cc.o CMakeFiles/gflags_static.dir/src/gflags_completions.cc.o
-/usr/bin/ranlib libgflags.a
+/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-ar qc libgflags.a CMakeFiles/gflags_static.dir/src/gflags.cc.o CMakeFiles/gflags_static.dir/src/gflags_reporting.cc.o CMakeFiles/gflags_static.dir/src/gflags_completions.cc.o
+/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-ranlib libgflags.a

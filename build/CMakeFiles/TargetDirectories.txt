@@ -1,4 +1,6 @@
-/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/webrtc-bf.dir
+/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/webrtc_ap.dir
+/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/bf_file.dir
+/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/bf_2mic.dir
 /media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/edit_cache.dir
 /media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/rebuild_cache.dir
 /media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/list_install_components.dir

@@ -1,4 +1,22 @@
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 3.10)
+
+# Set the cross compiler
+if(DEFINED X86)
+    set(CMAKE_C_COMPILER gcc)
+    set(CMAKE_CXX_COMPILER g++)
+elseif (DEFINED T113)
+    set(CMAKE_C_COMPILER arm-linux-gnueabi-gcc)
+    set(CMAKE_CXX_COMPILER arm-linux-gnueabi-g++)
+else()
+    set(CMAKE_C_COMPILER gcc)
+    set(CMAKE_CXX_COMPILER g++)
+endif()
+
+
+if(DEFINED T113)
+    set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -march=armv7-a -mfpu=neon -mfloat-abi=softfp")
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -march=armv7-a -mfpu=neon -mfloat-abi=softfp")
+endif()
 
 project(wav-beamforming)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
@@ -14,6 +32,7 @@ include_directories(
     webrtc/webrtc/common_audio/signal_processing/include
     webrtc/webrtc/modules/audio_coding/codecs/isac/main/include
     webrtc/webrtc/modules/audio_processing/test/
+    ./include
 
 )
 
@@ -36,15 +55,13 @@ set(WEBRTC_SRC_
     common_audio/channel_buffer.cc
     common_audio/fft4g.c
     common_audio/fir_filter.cc
-    common_audio/fir_filter_sse.cc
     common_audio/lapped_transform.cc
     common_audio/real_fourier.cc
     common_audio/real_fourier_ooura.cc
     common_audio/resampler/push_resampler.cc
     common_audio/resampler/push_sinc_resampler.cc
     common_audio/resampler/resampler.cc
-    common_audio/resampler/sinc_resampler.cc
-    common_audio/resampler/sinc_resampler_sse.cc
+
     common_audio/resampler/sinusoidal_linear_chirp_source.cc
     common_audio/ring_buffer.c
     common_audio/signal_processing/auto_correlation.c
@@ -123,10 +140,7 @@ set(WEBRTC_SRC_
     modules/audio_coding/codecs/isac/main/source/pitch_lag_tables.c
     modules/audio_coding/codecs/isac/main/source/spectrum_ar_model_tables.c
     modules/audio_coding/codecs/isac/main/source/transform.c
-    modules/audio_processing/aec/aec_core.cc
-    modules/audio_processing/aec/aec_core_sse2.cc
-    modules/audio_processing/aec/aec_rdft.cc
-    modules/audio_processing/aec/aec_rdft_sse2.cc
+
     modules/audio_processing/aec/aec_resampler.cc
     modules/audio_processing/aec/echo_cancellation.cc
     modules/audio_processing/aecm/aecm_core.cc
@@ -192,6 +206,24 @@ set(WEBRTC_SRC_
     
 )
 
+# define the target
+if(DEFINED X86)
+    list(APPEND WEBRTC_SRC_ common_audio/fir_filter_sse.cc)
+    list(APPEND WEBRTC_SRC_ common_audio/resampler/sinc_resampler_sse.cc)
+    list(APPEND WEBRTC_SRC_ modules/audio_processing/aec/aec_core_sse2.cc)
+    list(APPEND WEBRTC_SRC_ modules/audio_processing/aec/aec_rdft_sse2.cc)
+elseif(DEFINED T113)
+    list(APPEND WEBRTC_SRC_ common_audio/fir_filter_neon.cc)
+    list(APPEND WEBRTC_SRC_ common_audio/resampler/sinc_resampler.cc)
+    list(APPEND WEBRTC_SRC_ modules/audio_processing/aec/aec_core_neon.cc)
+    list(APPEND WEBRTC_SRC_ modules/audio_processing/aec/aec_rdft_neon.cc)
+else()
+    list(APPEND WEBRTC_SRC_ common_audio/fir_filter.cc)
+    list(APPEND WEBRTC_SRC_ common_audio/resampler/sinc_resampler.cc)
+    list(APPEND WEBRTC_SRC_ modules/audio_processing/aec/aec_core.cc)
+    list(APPEND WEBRTC_SRC_ modules/audio_processing/aec/aec_rdft.cc)
+endif()
+
 function(prepend_path var prefix)
    set(listVar "")
    foreach(f ${ARGN})
@@ -202,9 +234,19 @@ endfunction(prepend_path)
 
 prepend_path(WEBRTC_SRC webrtc/webrtc ${WEBRTC_SRC_})
 
-# add_executable(webrtc-audioproc webrtc-audioproc.cpp ${WEBRTC_SRC})
-add_executable(webrtc-bf nonlinear_beamformer_test.cc ${WEBRTC_SRC})
-# target_link_libraries(webrtc-audioproc gflags pthread)
-target_link_libraries(webrtc-bf gflags pthread)
+
+# wrtc_ap库
+add_library(webrtc_ap ${WEBRTC_SRC})
+
+# bf_file
+add_executable(bf_file bf_file.cc)
+target_link_libraries(bf_file webrtc_ap gflags pthread)
+
+link_directories(./lib/T113)
+
+# bf_mic
+add_executable(bf_2mic bf_2mic.cc)
+target_link_libraries(bf_2mic webrtc_ap gflags pthread tinyalsa)
+
 SET(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g -ggdb") 
-SET(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall") 
+SET(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall")

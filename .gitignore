@@ -4,3 +4,4 @@
 build/CMakeFiles/
 build/CMakeCache.txt
 build/audio/
+build/debug/

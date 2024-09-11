@@ -73,43 +73,43 @@ gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.o: gflags/CMakeFiles
 gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.o: ../gflags/src/gflags.cc
 gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.o: gflags/CMakeFiles/gflags_nothreads_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.o"
-	cd /media/sf_ans/beamforming/webrtc-beamforming/build/gflags && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.o -MF CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.o.d -o CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.o -c /media/sf_ans/beamforming/webrtc-beamforming/gflags/src/gflags.cc
+	cd /media/sf_ans/beamforming/webrtc-beamforming/build/gflags && /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.o -MF CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.o.d -o CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.o -c /media/sf_ans/beamforming/webrtc-beamforming/gflags/src/gflags.cc
 
 gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.i"
-	cd /media/sf_ans/beamforming/webrtc-beamforming/build/gflags && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/sf_ans/beamforming/webrtc-beamforming/gflags/src/gflags.cc > CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.i
+	cd /media/sf_ans/beamforming/webrtc-beamforming/build/gflags && /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/sf_ans/beamforming/webrtc-beamforming/gflags/src/gflags.cc > CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.i
 
 gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.s"
-	cd /media/sf_ans/beamforming/webrtc-beamforming/build/gflags && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/sf_ans/beamforming/webrtc-beamforming/gflags/src/gflags.cc -o CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.s
+	cd /media/sf_ans/beamforming/webrtc-beamforming/build/gflags && /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/sf_ans/beamforming/webrtc-beamforming/gflags/src/gflags.cc -o CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.s
 
 gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.o: gflags/CMakeFiles/gflags_nothreads_static.dir/flags.make
 gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.o: ../gflags/src/gflags_reporting.cc
 gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.o: gflags/CMakeFiles/gflags_nothreads_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.o"
-	cd /media/sf_ans/beamforming/webrtc-beamforming/build/gflags && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.o -MF CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.o.d -o CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.o -c /media/sf_ans/beamforming/webrtc-beamforming/gflags/src/gflags_reporting.cc
+	cd /media/sf_ans/beamforming/webrtc-beamforming/build/gflags && /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.o -MF CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.o.d -o CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.o -c /media/sf_ans/beamforming/webrtc-beamforming/gflags/src/gflags_reporting.cc
 
 gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.i"
-	cd /media/sf_ans/beamforming/webrtc-beamforming/build/gflags && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/sf_ans/beamforming/webrtc-beamforming/gflags/src/gflags_reporting.cc > CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.i
+	cd /media/sf_ans/beamforming/webrtc-beamforming/build/gflags && /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/sf_ans/beamforming/webrtc-beamforming/gflags/src/gflags_reporting.cc > CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.i
 
 gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.s"
-	cd /media/sf_ans/beamforming/webrtc-beamforming/build/gflags && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/sf_ans/beamforming/webrtc-beamforming/gflags/src/gflags_reporting.cc -o CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.s
+	cd /media/sf_ans/beamforming/webrtc-beamforming/build/gflags && /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/sf_ans/beamforming/webrtc-beamforming/gflags/src/gflags_reporting.cc -o CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.s
 
 gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.o: gflags/CMakeFiles/gflags_nothreads_static.dir/flags.make
 gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.o: ../gflags/src/gflags_completions.cc
 gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.o: gflags/CMakeFiles/gflags_nothreads_static.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.o"
-	cd /media/sf_ans/beamforming/webrtc-beamforming/build/gflags && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.o -MF CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.o.d -o CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.o -c /media/sf_ans/beamforming/webrtc-beamforming/gflags/src/gflags_completions.cc
+	cd /media/sf_ans/beamforming/webrtc-beamforming/build/gflags && /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.o -MF CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.o.d -o CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.o -c /media/sf_ans/beamforming/webrtc-beamforming/gflags/src/gflags_completions.cc
 
 gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.i"
-	cd /media/sf_ans/beamforming/webrtc-beamforming/build/gflags && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/sf_ans/beamforming/webrtc-beamforming/gflags/src/gflags_completions.cc > CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.i
+	cd /media/sf_ans/beamforming/webrtc-beamforming/build/gflags && /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/sf_ans/beamforming/webrtc-beamforming/gflags/src/gflags_completions.cc > CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.i
 
 gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.s"
-	cd /media/sf_ans/beamforming/webrtc-beamforming/build/gflags && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/sf_ans/beamforming/webrtc-beamforming/gflags/src/gflags_completions.cc -o CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.s
+	cd /media/sf_ans/beamforming/webrtc-beamforming/build/gflags && /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/sf_ans/beamforming/webrtc-beamforming/gflags/src/gflags_completions.cc -o CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.s
 
 # Object files for target gflags_nothreads_static
 gflags_nothreads_static_OBJECTS = \
