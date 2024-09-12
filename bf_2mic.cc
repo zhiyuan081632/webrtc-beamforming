@@ -278,7 +278,7 @@ int main(int argc, char *argv[]) {
         {-0.025, 0, 0},
         {+0.025, 0, 0}
     };
-    const size_t num_mics = array_geometry.size();
+    const size_t num_mics = 2;
 
     NonlinearBeamformer bf(array_geometry);
     bf.Initialize(kChunkSizeMs, PCM_RATE);
@@ -429,15 +429,16 @@ int main(int argc, char *argv[]) {
         // printf("frames_record: %d\n", frames_record);
         total_frames_record += frames_record;
 
-        // process with different mode
-        if (run_mode == 0) {
-            // Copy mic1 to line-out-L, line-in-R to line-out-R
-            for (int i = 0, j=0; j < size_record; i += bytes_per_frame_play, j += bytes_per_frame_record) { 
-                memcpy(buff_play + i, buff_record + j, 2); // mic1 to line-out-L
-                memcpy(buff_play + i + 2, buff_record + j + 2, 2); // line-in-R to line-out-R
-            }
-        } 
-        else if(run_mode == 1) {
+        // // process with different mode
+        // if (run_mode == 0) {
+        //     // Copy mic1 to line-out-L, line-in-R to line-out-R
+        //     for (int i = 0, j=0; j < size_record; i += bytes_per_frame_play, j += bytes_per_frame_record) { 
+        //         memcpy(buff_play + i, buff_record + j, 2); // mic1 to line-out-L
+        //         memcpy(buff_play + i + 2, buff_record + j + 2, 2); // line-in-R to line-out-R
+        //     }
+        // } 
+        // else 
+        if(run_mode == 1) {
           #if 0
             // ANS process
             sc_cap->process(buff_record, buff_alg);
@@ -448,10 +449,11 @@ int main(int argc, char *argv[]) {
             }
           #else
             // copy to interleaved buffer
-            for (size_t i = 0, j = 0; i < size_record; i += 6, j += 2) {
+            size_t num_samples = size_record / 6; 
+            for (size_t i = 0, j = 0; i < size_record && j < num_samples*2; i += 6, j += 2) {
                 // 提取第1和3通道
                 int16_t sample1 = *reinterpret_cast<int16_t*>(&buff_record[i]);
-                int16_t sample3 = *reinterpret_cast<int16_t*>(&buff_record[i + 2]);
+                int16_t sample3 = *reinterpret_cast<int16_t*>(&buff_record[i + 4]);
 
                 // 将提取的样本保存到interleaved中
                 interleaved[j] = sample1;
@@ -460,41 +462,25 @@ int main(int argc, char *argv[]) {
 
             FloatS16ToFloat(&interleaved[0], interleaved.size(), &interleaved[0]);
             Deinterleave(&interleaved[0], in_buf.num_frames(), in_buf.num_channels(), in_buf.channels());
+
             // process
             bf.ProcessChunk(in_buf, &out_buf);
 
             Interleave(out_buf.channels(), out_buf.num_frames(), out_buf.num_channels(), &interleaved[0]);
             FloatToFloatS16(&interleaved[0], interleaved.size(), &interleaved[0]);
+
             // copy to play buffer
-            size_t i = 0, j = 0;
-            for (; i < size_play; i += 2, j += 2) {
+            size_t size_play_needed = num_samples * 4; 
+            for (size_t i = 0, j = 0; i < size_play_needed; i += 4, j += 2) {
                 // 假设buff_play是char类型，并且每个样本需要2字节（即16位）
                 reinterpret_cast<int16_t*>(buff_play)[i/2] = interleaved[j];
-                reinterpret_cast<int16_t*>(buff_play)[(i+1)/2] = interleaved[j+1];
+                reinterpret_cast<int16_t*>(buff_play)[(i/2) + 1] = interleaved[j+1];
             }
 
 
           #endif
         }
-        else {
-            // ANS process simulation
-            clock_t start, end;
-            start = clock();
-          #if 0
-            // ANS process
-            sc_cap->process(buff_record, buff_alg);
-          #else
 
-          #endif
-            end = clock();
-            printf("Record  duration(ms): %.3f\n", (double)(frames_record) / PCM_RATE*1000);
-            printf("ANS process time(ms): %.3f\n", (double)(end - start) / CLOCKS_PER_SEC*1000);
-            // Copy mic1 to line-out-L, line-in-R to line-out-R
-            for (int i = 0, j=0; j < size_record; i += bytes_per_frame_play, j += bytes_per_frame_record) { 
-                memcpy(buff_play + i, buff_record + j, 2); // mic1 to line-out-L
-                memcpy(buff_play + i + 2, buff_record + j + 2, 2); // line-in-R to line-out-R
-            }
-        }
         // write it to the headphones
         frames_play = pcm_writei(pcm_out, buff_play, PCM_FRAMES_OUT); 
         // printf("frames_play: %d\n", frames_play);   
@@ -511,20 +497,14 @@ int main(int argc, char *argv[]) {
                 break;
             }
             // Write the data to the play file
-            size_t re_play = fwrite(buff_play, bytes_per_frame_record, size_record/bytes_per_frame_record, fp_play);
-            if (re_record != (size_t)frames_record) {
+            size_t re_play = fwrite(buff_play, bytes_per_frame_play, size_play/bytes_per_frame_play, fp_play);
+            if (re_play != (size_t)frames_play) {
                 fprintf(stderr, "Error write play file\n");
-                break;
+                // break;
             }
         }
     }
 
-    // Clean up
-    free(buff_record);
-    free(buff_alg);
-    free(buff_play);
-    pcm_close(pcm_in);
-    pcm_close(pcm_out);
 
     if (prinfo) {
         printf("Record %u frames, %.3f seconds\n", total_frames_record, (double)total_frames_record / PCM_RATE);
@@ -562,6 +542,14 @@ int main(int argc, char *argv[]) {
   #else
 
   #endif
+
+    // Clean up
+    free(buff_record);
+    // free(buff_alg);
+    free(buff_play);
+    pcm_close(pcm_in);
+    pcm_close(pcm_out);
+
     return 0;
 }
 
