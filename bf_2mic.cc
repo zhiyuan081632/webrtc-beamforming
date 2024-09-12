@@ -429,25 +429,16 @@ int main(int argc, char *argv[]) {
         // printf("frames_record: %d\n", frames_record);
         total_frames_record += frames_record;
 
-        // // process with different mode
-        // if (run_mode == 0) {
-        //     // Copy mic1 to line-out-L, line-in-R to line-out-R
-        //     for (int i = 0, j=0; j < size_record; i += bytes_per_frame_play, j += bytes_per_frame_record) { 
-        //         memcpy(buff_play + i, buff_record + j, 2); // mic1 to line-out-L
-        //         memcpy(buff_play + i + 2, buff_record + j + 2, 2); // line-in-R to line-out-R
-        //     }
-        // } 
-        // else 
-        if(run_mode == 1) {
-          #if 0
-            // ANS process
-            sc_cap->process(buff_record, buff_alg);
-            // Copy buff_alg to ch1 and ch2 of buff_play
-            for (int i = 0, j=0; i < size_record; i += bytes_per_frame_record, j += bytes_per_frame_alg) { 
-                memcpy(buff_play + i, buff_alg + j, 2); 
-                memcpy(buff_play + i + 2, buff_alg + j, 2); 
+        // process with different mode
+        if (run_mode == 0) {
+            // Copy mic1 to line-out-L, line-in-R to line-out-R
+            for (int i = 0, j=0; j < size_record; i += bytes_per_frame_play, j += bytes_per_frame_record) { 
+                memcpy(buff_play + i, buff_record + j, 2); // mic1 to line-out-L
+                memcpy(buff_play + i + 2, buff_record + j + 2, 2); // line-in-R to line-out-R
             }
-          #else
+        } 
+        else if(run_mode == 1) {
+
             // copy to interleaved buffer
             size_t num_samples = size_record / 6; 
             for (size_t i = 0, j = 0; i < size_record && j < num_samples*2; i += 6, j += 2) {
@@ -476,9 +467,6 @@ int main(int argc, char *argv[]) {
                 reinterpret_cast<int16_t*>(buff_play)[i/2] = interleaved[j];
                 reinterpret_cast<int16_t*>(buff_play)[(i/2) + 1] = interleaved[j+1];
             }
-
-
-          #endif
         }
 
         // write it to the headphones
