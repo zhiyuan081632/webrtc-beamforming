@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/3.22.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/3.22.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++ 
@@ -23,23 +23,23 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp
+Change Dir: /media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2a35d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2a35d.dir/build.make CMakeFiles/cmTC_2a35d.dir/build
-gmake[1]: Entering directory '/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2a35d.dir/CMakeCCompilerABI.c.o
-/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc   -march=armv7-a -mfpu=neon -mfloat-abi=softfp    -v -o CMakeFiles/cmTC_2a35d.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fc590/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fc590.dir/build.make CMakeFiles/cmTC_fc590.dir/build
+gmake[1]: Entering directory '/media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fc590.dir/CMakeCCompilerABI.c.o
+/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc   -march=armv7-a -mfpu=neon -mfloat-abi=softfp    -v -o CMakeFiles/cmTC_fc590.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc
 Target: arm-linux-gnueabi
 Configured with: '/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabi/snapshots/gcc.git~linaro-7.3-2018.05/configure' SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabi/_build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabi/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabi/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=soft --with-mode=thumb --with-tune=cortex-a9 --with-arch=armv7-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabi/_build/sysroots/arm-linux-gnueabi --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabi/_build/builds/destdir/x86_64-unknown-linux-gnu/arm-linux-gnueabi/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-linux-gnueabi --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabi/_build/builds/destdir/x86_64-unknown-linux-gnu
 Thread model: posix
 gcc version 7.3.1 20180425 [linaro-7.3-2018.05 revision d29120a424ecfbc167ef90065c0eeb7f91977701] (Linaro GCC 7.3-2018.05) 
-COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_2a35d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu'
- /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/cc1 -quiet -v -imultilib . -imultiarch arm-linux-gnueabi -iprefix /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/ -isysroot /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=armv7-a -mfpu=neon -mfloat-abi=softfp -mtune=cortex-a9 -mthumb -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_2a35d.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccLeROoe.s
+COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_fc590.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu'
+ /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/cc1 -quiet -v -imultilib . -imultiarch arm-linux-gnueabi -iprefix /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/ -isysroot /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=armv7-a -mfpu=neon -mfloat-abi=softfp -mtune=cortex-a9 -mthumb -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_fc590.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccJiLyQY.s
 GNU C11 (Linaro GCC 7.3-2018.05) version 7.3.1 20180425 [linaro-7.3-2018.05 revision d29120a424ecfbc167ef90065c0eeb7f91977701] (arm-linux-gnueabi)
 	compiled by GNU C version 4.8.4, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -60,15 +60,15 @@ GNU C11 (Linaro GCC 7.3-2018.05) version 7.3.1 20180425 [linaro-7.3-2018.05 revi
 	compiled by GNU C version 4.8.4, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 404974a81fee3312674ecb0f82587bc5
-COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_2a35d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu'
- /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/bin/as -v -march=armv7-a -mfloat-abi=softfp -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_2a35d.dir/CMakeCCompilerABI.c.o /tmp/ccLeROoe.s
+COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_fc590.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu'
+ /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/bin/as -v -march=armv7-a -mfloat-abi=softfp -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_fc590.dir/CMakeCCompilerABI.c.o /tmp/ccJiLyQY.s
 GNU assembler version 2.28.2 (arm-linux-gnueabi) using BFD version (Linaro_Binutils-2018.05) 2.28.2.20170706
 COMPILER_PATH=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/bin/
 LIBRARY_PATH=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/lib/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/lib/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/
-COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_2a35d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu'
-Linking C executable cmTC_2a35d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a35d.dir/link.txt --verbose=1
-/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc  -march=armv7-a -mfpu=neon -mfloat-abi=softfp   -v CMakeFiles/cmTC_2a35d.dir/CMakeCCompilerABI.c.o -o cmTC_2a35d 
+COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_fc590.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu'
+Linking C executable cmTC_fc590
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc590.dir/link.txt --verbose=1
+/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc  -march=armv7-a -mfpu=neon -mfloat-abi=softfp   -v CMakeFiles/cmTC_fc590.dir/CMakeCCompilerABI.c.o -o cmTC_fc590 
 Using built-in specs.
 COLLECT_GCC=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc
 COLLECT_LTO_WRAPPER=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/lto-wrapper
@@ -78,10 +78,10 @@ Thread model: posix
 gcc version 7.3.1 20180425 [linaro-7.3-2018.05 revision d29120a424ecfbc167ef90065c0eeb7f91977701] (Linaro GCC 7.3-2018.05) 
 COMPILER_PATH=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/bin/
 LIBRARY_PATH=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/lib/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/lib/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/
-COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'cmTC_2a35d' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu'
- /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/collect2 -plugin /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/liblto_plugin.so -plugin-opt=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKs9QWV.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTC_2a35d /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/crt1.o /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/crti.o /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/crtbegin.o -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1 -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/lib -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/lib -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib CMakeFiles/cmTC_2a35d.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/crtend.o /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/crtn.o
-COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'cmTC_2a35d' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu'
-gmake[1]: Leaving directory '/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'cmTC_fc590' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu'
+ /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/collect2 -plugin /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/liblto_plugin.so -plugin-opt=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccv3mo3o.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTC_fc590 /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/crt1.o /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/crti.o /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/crtbegin.o -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1 -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/lib -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/lib -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib CMakeFiles/cmTC_fc590.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/crtend.o /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'cmTC_fc590' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu'
+gmake[1]: Leaving directory '/media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp'
 
 
 
@@ -102,20 +102,20 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-linux-gnueabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2a35d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2a35d.dir/build.make CMakeFiles/cmTC_2a35d.dir/build]
-  ignore line: [gmake[1]: Entering directory '/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_2a35d.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc   -march=armv7-a -mfpu=neon -mfloat-abi=softfp    -v -o CMakeFiles/cmTC_2a35d.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fc590/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fc590.dir/build.make CMakeFiles/cmTC_fc590.dir/build]
+  ignore line: [gmake[1]: Entering directory '/media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_fc590.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc   -march=armv7-a -mfpu=neon -mfloat-abi=softfp    -v -o CMakeFiles/cmTC_fc590.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc]
   ignore line: [Target: arm-linux-gnueabi]
   ignore line: [Configured with: '/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabi/snapshots/gcc.git~linaro-7.3-2018.05/configure' SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabi/_build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabi/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabi/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=soft --with-mode=thumb --with-tune=cortex-a9 --with-arch=armv7-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabi/_build/sysroots/arm-linux-gnueabi --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabi/_build/builds/destdir/x86_64-unknown-linux-gnu/arm-linux-gnueabi/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-linux-gnueabi --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabi/_build/builds/destdir/x86_64-unknown-linux-gnu]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 7.3.1 20180425 [linaro-7.3-2018.05 revision d29120a424ecfbc167ef90065c0eeb7f91977701] (Linaro GCC 7.3-2018.05) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_2a35d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu']
-  ignore line: [ /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/cc1 -quiet -v -imultilib . -imultiarch arm-linux-gnueabi -iprefix /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/ -isysroot /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=armv7-a -mfpu=neon -mfloat-abi=softfp -mtune=cortex-a9 -mthumb -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_2a35d.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccLeROoe.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_fc590.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu']
+  ignore line: [ /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/cc1 -quiet -v -imultilib . -imultiarch arm-linux-gnueabi -iprefix /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/ -isysroot /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=armv7-a -mfpu=neon -mfloat-abi=softfp -mtune=cortex-a9 -mthumb -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_fc590.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccJiLyQY.s]
   ignore line: [GNU C11 (Linaro GCC 7.3-2018.05) version 7.3.1 20180425 [linaro-7.3-2018.05 revision d29120a424ecfbc167ef90065c0eeb7f91977701] (arm-linux-gnueabi)]
   ignore line: [	compiled by GNU C version 4.8.4  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.3  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -136,15 +136,15 @@ Parsed C implicit link information from above output:
   ignore line: [	compiled by GNU C version 4.8.4  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.3  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 404974a81fee3312674ecb0f82587bc5]
-  ignore line: [COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_2a35d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu']
-  ignore line: [ /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/bin/as -v -march=armv7-a -mfloat-abi=softfp -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_2a35d.dir/CMakeCCompilerABI.c.o /tmp/ccLeROoe.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_fc590.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu']
+  ignore line: [ /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/bin/as -v -march=armv7-a -mfloat-abi=softfp -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_fc590.dir/CMakeCCompilerABI.c.o /tmp/ccJiLyQY.s]
   ignore line: [GNU assembler version 2.28.2 (arm-linux-gnueabi) using BFD version (Linaro_Binutils-2018.05) 2.28.2.20170706]
   ignore line: [COMPILER_PATH=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/bin/]
   ignore line: [LIBRARY_PATH=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/lib/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/lib/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_2a35d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu']
-  ignore line: [Linking C executable cmTC_2a35d]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a35d.dir/link.txt --verbose=1]
-  ignore line: [/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc  -march=armv7-a -mfpu=neon -mfloat-abi=softfp   -v CMakeFiles/cmTC_2a35d.dir/CMakeCCompilerABI.c.o -o cmTC_2a35d ]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_fc590.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu']
+  ignore line: [Linking C executable cmTC_fc590]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc590.dir/link.txt --verbose=1]
+  ignore line: [/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc  -march=armv7-a -mfpu=neon -mfloat-abi=softfp   -v CMakeFiles/cmTC_fc590.dir/CMakeCCompilerABI.c.o -o cmTC_fc590 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/lto-wrapper]
@@ -154,13 +154,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.3.1 20180425 [linaro-7.3-2018.05 revision d29120a424ecfbc167ef90065c0eeb7f91977701] (Linaro GCC 7.3-2018.05) ]
   ignore line: [COMPILER_PATH=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/bin/]
   ignore line: [LIBRARY_PATH=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/lib/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/lib/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'cmTC_2a35d' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu']
-  link line: [ /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/collect2 -plugin /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/liblto_plugin.so -plugin-opt=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKs9QWV.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTC_2a35d /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/crt1.o /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/crti.o /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/crtbegin.o -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1 -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/lib -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/lib -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib CMakeFiles/cmTC_2a35d.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/crtend.o /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'cmTC_fc590' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu']
+  link line: [ /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/collect2 -plugin /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/liblto_plugin.so -plugin-opt=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccv3mo3o.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTC_fc590 /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/crt1.o /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/crti.o /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/crtbegin.o -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1 -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/lib -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/lib -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib CMakeFiles/cmTC_fc590.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/crtend.o /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/crtn.o]
     arg [/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccKs9QWV.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccv3mo3o.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -175,7 +175,7 @@ Parsed C implicit link information from above output:
     arg [-m] ==> ignore
     arg [armelf_linux_eabi] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_2a35d] ==> ignore
+    arg [cmTC_fc590] ==> ignore
     arg [/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/crt1.o] ==> obj [/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/crt1.o]
     arg [/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/crti.o] ==> obj [/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/crti.o]
     arg [/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/crtbegin.o] ==> obj [/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/crtbegin.o]
@@ -185,7 +185,7 @@ Parsed C implicit link information from above output:
     arg [-L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/lib] ==> dir [/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/lib]
     arg [-L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/lib] ==> dir [/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/lib]
     arg [-L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib] ==> dir [/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib]
-    arg [CMakeFiles/cmTC_2a35d.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_fc590.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -215,20 +215,20 @@ Parsed C implicit link information from above output:
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp
+Change Dir: /media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_88935/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_88935.dir/build.make CMakeFiles/cmTC_88935.dir/build
-gmake[1]: Entering directory '/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_88935.dir/CMakeCXXCompilerABI.cpp.o
-/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++   -march=armv7-a -mfpu=neon -mfloat-abi=softfp    -v -o CMakeFiles/cmTC_88935.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d93b1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d93b1.dir/build.make CMakeFiles/cmTC_d93b1.dir/build
+gmake[1]: Entering directory '/media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d93b1.dir/CMakeCXXCompilerABI.cpp.o
+/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++   -march=armv7-a -mfpu=neon -mfloat-abi=softfp    -v -o CMakeFiles/cmTC_d93b1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++
 Target: arm-linux-gnueabi
 Configured with: '/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabi/snapshots/gcc.git~linaro-7.3-2018.05/configure' SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabi/_build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabi/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabi/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=soft --with-mode=thumb --with-tune=cortex-a9 --with-arch=armv7-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabi/_build/sysroots/arm-linux-gnueabi --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabi/_build/builds/destdir/x86_64-unknown-linux-gnu/arm-linux-gnueabi/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-linux-gnueabi --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabi/_build/builds/destdir/x86_64-unknown-linux-gnu
 Thread model: posix
 gcc version 7.3.1 20180425 [linaro-7.3-2018.05 revision d29120a424ecfbc167ef90065c0eeb7f91977701] (Linaro GCC 7.3-2018.05) 
-COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_88935.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu'
- /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/cc1plus -quiet -v -imultilib . -imultiarch arm-linux-gnueabi -iprefix /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/ -isysroot /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=armv7-a -mfpu=neon -mfloat-abi=softfp -mtune=cortex-a9 -mthumb -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_88935.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccySWBbZ.s
+COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_d93b1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu'
+ /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/cc1plus -quiet -v -imultilib . -imultiarch arm-linux-gnueabi -iprefix /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/ -isysroot /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=armv7-a -mfpu=neon -mfloat-abi=softfp -mtune=cortex-a9 -mthumb -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_d93b1.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccBHSikT.s
 GNU C++14 (Linaro GCC 7.3-2018.05) version 7.3.1 20180425 [linaro-7.3-2018.05 revision d29120a424ecfbc167ef90065c0eeb7f91977701] (arm-linux-gnueabi)
 	compiled by GNU C version 4.8.4, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -255,15 +255,15 @@ GNU C++14 (Linaro GCC 7.3-2018.05) version 7.3.1 20180425 [linaro-7.3-2018.05 re
 	compiled by GNU C version 4.8.4, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 16ffd4c49782a116480e5533e4c02e08
-COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_88935.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu'
- /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/bin/as -v -march=armv7-a -mfloat-abi=softfp -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_88935.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccySWBbZ.s
+COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_d93b1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu'
+ /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/bin/as -v -march=armv7-a -mfloat-abi=softfp -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_d93b1.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccBHSikT.s
 GNU assembler version 2.28.2 (arm-linux-gnueabi) using BFD version (Linaro_Binutils-2018.05) 2.28.2.20170706
 COMPILER_PATH=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/bin/
 LIBRARY_PATH=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/lib/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/lib/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/
-COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_88935.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu'
-Linking CXX executable cmTC_88935
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88935.dir/link.txt --verbose=1
-/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++  -march=armv7-a -mfpu=neon -mfloat-abi=softfp   -v CMakeFiles/cmTC_88935.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_88935 
+COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_d93b1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu'
+Linking CXX executable cmTC_d93b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d93b1.dir/link.txt --verbose=1
+/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++  -march=armv7-a -mfpu=neon -mfloat-abi=softfp   -v CMakeFiles/cmTC_d93b1.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d93b1 
 Using built-in specs.
 COLLECT_GCC=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++
 COLLECT_LTO_WRAPPER=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/lto-wrapper
@@ -273,10 +273,10 @@ Thread model: posix
 gcc version 7.3.1 20180425 [linaro-7.3-2018.05 revision d29120a424ecfbc167ef90065c0eeb7f91977701] (Linaro GCC 7.3-2018.05) 
 COMPILER_PATH=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/bin/
 LIBRARY_PATH=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/lib/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/lib/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/
-COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'cmTC_88935' '-shared-libgcc' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu'
- /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/collect2 -plugin /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/liblto_plugin.so -plugin-opt=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccimVbJg.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTC_88935 /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/crt1.o /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/crti.o /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/crtbegin.o -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1 -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/lib -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/lib -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib CMakeFiles/cmTC_88935.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/crtend.o /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/crtn.o
-COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'cmTC_88935' '-shared-libgcc' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu'
-gmake[1]: Leaving directory '/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'cmTC_d93b1' '-shared-libgcc' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu'
+ /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/collect2 -plugin /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/liblto_plugin.so -plugin-opt=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvH7rHm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTC_d93b1 /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/crt1.o /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/crti.o /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/crtbegin.o -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1 -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/lib -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/lib -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib CMakeFiles/cmTC_d93b1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/crtend.o /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'cmTC_d93b1' '-shared-libgcc' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu'
+gmake[1]: Leaving directory '/media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp'
 
 
 
@@ -303,20 +303,20 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-linux-gnueabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_88935/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_88935.dir/build.make CMakeFiles/cmTC_88935.dir/build]
-  ignore line: [gmake[1]: Entering directory '/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_88935.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++   -march=armv7-a -mfpu=neon -mfloat-abi=softfp    -v -o CMakeFiles/cmTC_88935.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d93b1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d93b1.dir/build.make CMakeFiles/cmTC_d93b1.dir/build]
+  ignore line: [gmake[1]: Entering directory '/media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_d93b1.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++   -march=armv7-a -mfpu=neon -mfloat-abi=softfp    -v -o CMakeFiles/cmTC_d93b1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++]
   ignore line: [Target: arm-linux-gnueabi]
   ignore line: [Configured with: '/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabi/snapshots/gcc.git~linaro-7.3-2018.05/configure' SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabi/_build/builds/destdir/x86_64-unknown-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabi/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabi/_build/builds/destdir/x86_64-unknown-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --with-float=soft --with-mode=thumb --with-tune=cortex-a9 --with-arch=armv7-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-build-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabi/_build/sysroots/arm-linux-gnueabi --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabi/_build/builds/destdir/x86_64-unknown-linux-gnu/arm-linux-gnueabi/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=arm-linux-gnueabi --prefix=/home/tcwg-buildslave/workspace/tcwg-make-release/builder_arch/amd64/label/tcwg-x86_64-build/target/arm-linux-gnueabi/_build/builds/destdir/x86_64-unknown-linux-gnu]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 7.3.1 20180425 [linaro-7.3-2018.05 revision d29120a424ecfbc167ef90065c0eeb7f91977701] (Linaro GCC 7.3-2018.05) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_88935.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu']
-  ignore line: [ /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/cc1plus -quiet -v -imultilib . -imultiarch arm-linux-gnueabi -iprefix /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/ -isysroot /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=armv7-a -mfpu=neon -mfloat-abi=softfp -mtune=cortex-a9 -mthumb -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_88935.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccySWBbZ.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_d93b1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu']
+  ignore line: [ /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/cc1plus -quiet -v -imultilib . -imultiarch arm-linux-gnueabi -iprefix /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/ -isysroot /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=armv7-a -mfpu=neon -mfloat-abi=softfp -mtune=cortex-a9 -mthumb -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_d93b1.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccBHSikT.s]
   ignore line: [GNU C++14 (Linaro GCC 7.3-2018.05) version 7.3.1 20180425 [linaro-7.3-2018.05 revision d29120a424ecfbc167ef90065c0eeb7f91977701] (arm-linux-gnueabi)]
   ignore line: [	compiled by GNU C version 4.8.4  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.3  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -343,15 +343,15 @@ Parsed CXX implicit link information from above output:
   ignore line: [	compiled by GNU C version 4.8.4  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.3  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 16ffd4c49782a116480e5533e4c02e08]
-  ignore line: [COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_88935.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu']
-  ignore line: [ /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/bin/as -v -march=armv7-a -mfloat-abi=softfp -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_88935.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccySWBbZ.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_d93b1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu']
+  ignore line: [ /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/bin/as -v -march=armv7-a -mfloat-abi=softfp -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_d93b1.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccBHSikT.s]
   ignore line: [GNU assembler version 2.28.2 (arm-linux-gnueabi) using BFD version (Linaro_Binutils-2018.05) 2.28.2.20170706]
   ignore line: [COMPILER_PATH=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/bin/]
   ignore line: [LIBRARY_PATH=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/lib/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/lib/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_88935.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu']
-  ignore line: [Linking CXX executable cmTC_88935]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88935.dir/link.txt --verbose=1]
-  ignore line: [/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++  -march=armv7-a -mfpu=neon -mfloat-abi=softfp   -v CMakeFiles/cmTC_88935.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_88935 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'CMakeFiles/cmTC_d93b1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu']
+  ignore line: [Linking CXX executable cmTC_d93b1]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d93b1.dir/link.txt --verbose=1]
+  ignore line: [/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++  -march=armv7-a -mfpu=neon -mfloat-abi=softfp   -v CMakeFiles/cmTC_d93b1.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d93b1 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++]
   ignore line: [COLLECT_LTO_WRAPPER=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/lto-wrapper]
@@ -361,13 +361,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.3.1 20180425 [linaro-7.3-2018.05 revision d29120a424ecfbc167ef90065c0eeb7f91977701] (Linaro GCC 7.3-2018.05) ]
   ignore line: [COMPILER_PATH=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/bin/]
   ignore line: [LIBRARY_PATH=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/lib/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/lib/:/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'cmTC_88935' '-shared-libgcc' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu']
-  link line: [ /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/collect2 -plugin /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/liblto_plugin.so -plugin-opt=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccimVbJg.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTC_88935 /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/crt1.o /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/crti.o /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/crtbegin.o -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1 -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/lib -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/lib -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib CMakeFiles/cmTC_88935.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/crtend.o /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfpu=neon' '-mfloat-abi=softfp' '-v' '-o' 'cmTC_d93b1' '-shared-libgcc' '-mtune=cortex-a9' '-mthumb' '-mtls-dialect=gnu']
+  link line: [ /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/collect2 -plugin /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/liblto_plugin.so -plugin-opt=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvH7rHm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTC_d93b1 /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/crt1.o /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/crti.o /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/crtbegin.o -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1 -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/lib -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/lib -L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib CMakeFiles/cmTC_d93b1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/crtend.o /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/crtn.o]
     arg [/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../libexec/gcc/arm-linux-gnueabi/7.3.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccimVbJg.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccvH7rHm.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -382,7 +382,7 @@ Parsed CXX implicit link information from above output:
     arg [-m] ==> ignore
     arg [armelf_linux_eabi] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_88935] ==> ignore
+    arg [cmTC_d93b1] ==> ignore
     arg [/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/crt1.o] ==> obj [/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/crt1.o]
     arg [/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/crti.o] ==> obj [/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib/crti.o]
     arg [/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/crtbegin.o] ==> obj [/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/crtbegin.o]
@@ -392,7 +392,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/lib] ==> dir [/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.3.1/../../../../arm-linux-gnueabi/lib]
     arg [-L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/lib] ==> dir [/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/lib]
     arg [-L/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib] ==> dir [/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/../arm-linux-gnueabi/libc/usr/lib]
-    arg [CMakeFiles/cmTC_88935.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_d93b1.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -420,131 +420,131 @@ Parsed CXX implicit link information from above output:
 
 
 Determining if the include file unistd.h exists passed with the following output:
-Change Dir: /media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp
+Change Dir: /media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2877d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2877d.dir/build.make CMakeFiles/cmTC_2877d.dir/build
-gmake[1]: Entering directory '/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2877d.dir/CheckIncludeFile.cxx.o
-/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++   -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -o CMakeFiles/cmTC_2877d.dir/CheckIncludeFile.cxx.o -c /media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-Linking CXX executable cmTC_2877d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2877d.dir/link.txt --verbose=1
-/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++  -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -rdynamic CMakeFiles/cmTC_2877d.dir/CheckIncludeFile.cxx.o -o cmTC_2877d 
-gmake[1]: Leaving directory '/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4e863/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4e863.dir/build.make CMakeFiles/cmTC_4e863.dir/build
+gmake[1]: Entering directory '/media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4e863.dir/CheckIncludeFile.cxx.o
+/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++   -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -o CMakeFiles/cmTC_4e863.dir/CheckIncludeFile.cxx.o -c /media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_4e863
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e863.dir/link.txt --verbose=1
+/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++  -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -rdynamic CMakeFiles/cmTC_4e863.dir/CheckIncludeFile.cxx.o -o cmTC_4e863 
+gmake[1]: Leaving directory '/media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file stdint.h exists passed with the following output:
-Change Dir: /media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp
+Change Dir: /media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8d727/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8d727.dir/build.make CMakeFiles/cmTC_8d727.dir/build
-gmake[1]: Entering directory '/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8d727.dir/CheckIncludeFile.cxx.o
-/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++   -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -o CMakeFiles/cmTC_8d727.dir/CheckIncludeFile.cxx.o -c /media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-Linking CXX executable cmTC_8d727
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d727.dir/link.txt --verbose=1
-/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++  -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -rdynamic CMakeFiles/cmTC_8d727.dir/CheckIncludeFile.cxx.o -o cmTC_8d727 
-gmake[1]: Leaving directory '/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5e0cb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5e0cb.dir/build.make CMakeFiles/cmTC_5e0cb.dir/build
+gmake[1]: Entering directory '/media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5e0cb.dir/CheckIncludeFile.cxx.o
+/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++   -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -o CMakeFiles/cmTC_5e0cb.dir/CheckIncludeFile.cxx.o -c /media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_5e0cb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e0cb.dir/link.txt --verbose=1
+/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++  -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -rdynamic CMakeFiles/cmTC_5e0cb.dir/CheckIncludeFile.cxx.o -o cmTC_5e0cb 
+gmake[1]: Leaving directory '/media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file inttypes.h exists passed with the following output:
-Change Dir: /media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp
+Change Dir: /media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_60f4d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_60f4d.dir/build.make CMakeFiles/cmTC_60f4d.dir/build
-gmake[1]: Entering directory '/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_60f4d.dir/CheckIncludeFile.cxx.o
-/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++   -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -o CMakeFiles/cmTC_60f4d.dir/CheckIncludeFile.cxx.o -c /media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-Linking CXX executable cmTC_60f4d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60f4d.dir/link.txt --verbose=1
-/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++  -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -rdynamic CMakeFiles/cmTC_60f4d.dir/CheckIncludeFile.cxx.o -o cmTC_60f4d 
-gmake[1]: Leaving directory '/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_88d8a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_88d8a.dir/build.make CMakeFiles/cmTC_88d8a.dir/build
+gmake[1]: Entering directory '/media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_88d8a.dir/CheckIncludeFile.cxx.o
+/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++   -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -o CMakeFiles/cmTC_88d8a.dir/CheckIncludeFile.cxx.o -c /media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_88d8a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88d8a.dir/link.txt --verbose=1
+/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++  -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -rdynamic CMakeFiles/cmTC_88d8a.dir/CheckIncludeFile.cxx.o -o cmTC_88d8a 
+gmake[1]: Leaving directory '/media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file sys/types.h exists passed with the following output:
-Change Dir: /media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp
+Change Dir: /media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_57cd8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_57cd8.dir/build.make CMakeFiles/cmTC_57cd8.dir/build
-gmake[1]: Entering directory '/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_57cd8.dir/CheckIncludeFile.cxx.o
-/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++   -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -o CMakeFiles/cmTC_57cd8.dir/CheckIncludeFile.cxx.o -c /media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-Linking CXX executable cmTC_57cd8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57cd8.dir/link.txt --verbose=1
-/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++  -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -rdynamic CMakeFiles/cmTC_57cd8.dir/CheckIncludeFile.cxx.o -o cmTC_57cd8 
-gmake[1]: Leaving directory '/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dbce1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dbce1.dir/build.make CMakeFiles/cmTC_dbce1.dir/build
+gmake[1]: Entering directory '/media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dbce1.dir/CheckIncludeFile.cxx.o
+/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++   -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -o CMakeFiles/cmTC_dbce1.dir/CheckIncludeFile.cxx.o -c /media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_dbce1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbce1.dir/link.txt --verbose=1
+/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++  -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -rdynamic CMakeFiles/cmTC_dbce1.dir/CheckIncludeFile.cxx.o -o cmTC_dbce1 
+gmake[1]: Leaving directory '/media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file sys/stat.h exists passed with the following output:
-Change Dir: /media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp
+Change Dir: /media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3ca55/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3ca55.dir/build.make CMakeFiles/cmTC_3ca55.dir/build
-gmake[1]: Entering directory '/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3ca55.dir/CheckIncludeFile.cxx.o
-/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++   -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -o CMakeFiles/cmTC_3ca55.dir/CheckIncludeFile.cxx.o -c /media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-Linking CXX executable cmTC_3ca55
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ca55.dir/link.txt --verbose=1
-/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++  -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -rdynamic CMakeFiles/cmTC_3ca55.dir/CheckIncludeFile.cxx.o -o cmTC_3ca55 
-gmake[1]: Leaving directory '/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9241a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9241a.dir/build.make CMakeFiles/cmTC_9241a.dir/build
+gmake[1]: Entering directory '/media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9241a.dir/CheckIncludeFile.cxx.o
+/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++   -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -o CMakeFiles/cmTC_9241a.dir/CheckIncludeFile.cxx.o -c /media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_9241a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9241a.dir/link.txt --verbose=1
+/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++  -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -rdynamic CMakeFiles/cmTC_9241a.dir/CheckIncludeFile.cxx.o -o cmTC_9241a 
+gmake[1]: Leaving directory '/media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file fnmatch.h exists passed with the following output:
-Change Dir: /media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp
+Change Dir: /media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2eea7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2eea7.dir/build.make CMakeFiles/cmTC_2eea7.dir/build
-gmake[1]: Entering directory '/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2eea7.dir/CheckIncludeFile.cxx.o
-/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++   -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -o CMakeFiles/cmTC_2eea7.dir/CheckIncludeFile.cxx.o -c /media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-Linking CXX executable cmTC_2eea7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2eea7.dir/link.txt --verbose=1
-/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++  -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -rdynamic CMakeFiles/cmTC_2eea7.dir/CheckIncludeFile.cxx.o -o cmTC_2eea7 
-gmake[1]: Leaving directory '/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_051ff/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_051ff.dir/build.make CMakeFiles/cmTC_051ff.dir/build
+gmake[1]: Entering directory '/media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_051ff.dir/CheckIncludeFile.cxx.o
+/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++   -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -o CMakeFiles/cmTC_051ff.dir/CheckIncludeFile.cxx.o -c /media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_051ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_051ff.dir/link.txt --verbose=1
+/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++  -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -rdynamic CMakeFiles/cmTC_051ff.dir/CheckIncludeFile.cxx.o -o cmTC_051ff 
+gmake[1]: Leaving directory '/media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file stddef.h exists passed with the following output:
-Change Dir: /media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp
+Change Dir: /media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ee4ea/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ee4ea.dir/build.make CMakeFiles/cmTC_ee4ea.dir/build
-gmake[1]: Entering directory '/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ee4ea.dir/CheckIncludeFile.cxx.o
-/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++   -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -o CMakeFiles/cmTC_ee4ea.dir/CheckIncludeFile.cxx.o -c /media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-Linking CXX executable cmTC_ee4ea
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee4ea.dir/link.txt --verbose=1
-/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++  -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -rdynamic CMakeFiles/cmTC_ee4ea.dir/CheckIncludeFile.cxx.o -o cmTC_ee4ea 
-gmake[1]: Leaving directory '/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cdf06/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cdf06.dir/build.make CMakeFiles/cmTC_cdf06.dir/build
+gmake[1]: Entering directory '/media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cdf06.dir/CheckIncludeFile.cxx.o
+/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++   -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -o CMakeFiles/cmTC_cdf06.dir/CheckIncludeFile.cxx.o -c /media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_cdf06
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdf06.dir/link.txt --verbose=1
+/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++  -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -rdynamic CMakeFiles/cmTC_cdf06.dir/CheckIncludeFile.cxx.o -o cmTC_cdf06 
+gmake[1]: Leaving directory '/media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp'
 
 
 
 Determining size of uint32_t passed with the following output:
-Change Dir: /media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp
+Change Dir: /media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7824e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7824e.dir/build.make CMakeFiles/cmTC_7824e.dir/build
-gmake[1]: Entering directory '/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_7824e.dir/uint32_t.cpp.o
-/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++   -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -o CMakeFiles/cmTC_7824e.dir/uint32_t.cpp.o -c /media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CheckTypeSize/uint32_t.cpp
-Linking CXX executable cmTC_7824e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7824e.dir/link.txt --verbose=1
-/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++  -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -rdynamic CMakeFiles/cmTC_7824e.dir/uint32_t.cpp.o -o cmTC_7824e 
-gmake[1]: Leaving directory '/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1d687/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1d687.dir/build.make CMakeFiles/cmTC_1d687.dir/build
+gmake[1]: Entering directory '/media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1d687.dir/uint32_t.cpp.o
+/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++   -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -o CMakeFiles/cmTC_1d687.dir/uint32_t.cpp.o -c /media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CheckTypeSize/uint32_t.cpp
+Linking CXX executable cmTC_1d687
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d687.dir/link.txt --verbose=1
+/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++  -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -rdynamic CMakeFiles/cmTC_1d687.dir/uint32_t.cpp.o -o cmTC_1d687 
+gmake[1]: Leaving directory '/media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the strtoll exist passed with the following output:
-Change Dir: /media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp
+Change Dir: /media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3ed6d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3ed6d.dir/build.make CMakeFiles/cmTC_3ed6d.dir/build
-gmake[1]: Entering directory '/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3ed6d.dir/CheckSymbolExists.cxx.o
-/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++   -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -o CMakeFiles/cmTC_3ed6d.dir/CheckSymbolExists.cxx.o -c /media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-Linking CXX executable cmTC_3ed6d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ed6d.dir/link.txt --verbose=1
-/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++  -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -rdynamic CMakeFiles/cmTC_3ed6d.dir/CheckSymbolExists.cxx.o -o cmTC_3ed6d 
-gmake[1]: Leaving directory '/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3be24/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3be24.dir/build.make CMakeFiles/cmTC_3be24.dir/build
+gmake[1]: Entering directory '/media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3be24.dir/CheckSymbolExists.cxx.o
+/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++   -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -o CMakeFiles/cmTC_3be24.dir/CheckSymbolExists.cxx.o -c /media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_3be24
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3be24.dir/link.txt --verbose=1
+/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++  -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -rdynamic CMakeFiles/cmTC_3be24.dir/CheckSymbolExists.cxx.o -o cmTC_3be24 
+gmake[1]: Leaving directory '/media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp'
 
 
-File /media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <stdlib.h>
 
@@ -559,44 +559,44 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp
+Change Dir: /media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fb09a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fb09a.dir/build.make CMakeFiles/cmTC_fb09a.dir/build
-gmake[1]: Entering directory '/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fb09a.dir/CheckIncludeFile.c.o
-/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc   -march=armv7-a -mfpu=neon -mfloat-abi=softfp  -o CMakeFiles/cmTC_fb09a.dir/CheckIncludeFile.c.o -c /media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_fb09a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb09a.dir/link.txt --verbose=1
-/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc  -march=armv7-a -mfpu=neon -mfloat-abi=softfp  -rdynamic CMakeFiles/cmTC_fb09a.dir/CheckIncludeFile.c.o -o cmTC_fb09a 
-gmake[1]: Leaving directory '/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f0419/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f0419.dir/build.make CMakeFiles/cmTC_f0419.dir/build
+gmake[1]: Entering directory '/media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0419.dir/CheckIncludeFile.c.o
+/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc   -march=armv7-a -mfpu=neon -mfloat-abi=softfp  -o CMakeFiles/cmTC_f0419.dir/CheckIncludeFile.c.o -c /media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f0419
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0419.dir/link.txt --verbose=1
+/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc  -march=armv7-a -mfpu=neon -mfloat-abi=softfp  -rdynamic CMakeFiles/cmTC_f0419.dir/CheckIncludeFile.c.o -o cmTC_f0419 
+gmake[1]: Leaving directory '/media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp
+Change Dir: /media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_659da/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_659da.dir/build.make CMakeFiles/cmTC_659da.dir/build
-gmake[1]: Entering directory '/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_659da.dir/CheckFunctionExists.c.o
-/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc   -march=armv7-a -mfpu=neon -mfloat-abi=softfp -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_659da.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
-Linking C executable cmTC_659da
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_659da.dir/link.txt --verbose=1
-/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc  -march=armv7-a -mfpu=neon -mfloat-abi=softfp -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_659da.dir/CheckFunctionExists.c.o -o cmTC_659da  -lpthread 
-gmake[1]: Leaving directory '/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c0543/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c0543.dir/build.make CMakeFiles/cmTC_c0543.dir/build
+gmake[1]: Entering directory '/media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c0543.dir/CheckFunctionExists.c.o
+/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc   -march=armv7-a -mfpu=neon -mfloat-abi=softfp -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_c0543.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c0543
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0543.dir/link.txt --verbose=1
+/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc  -march=armv7-a -mfpu=neon -mfloat-abi=softfp -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_c0543.dir/CheckFunctionExists.c.o -o cmTC_c0543  -lpthread 
+gmake[1]: Leaving directory '/media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp'
 
 
 
 Determining size of pthread_rwlock_t passed with the following output:
-Change Dir: /media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp
+Change Dir: /media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_91dab/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_91dab.dir/build.make CMakeFiles/cmTC_91dab.dir/build
-gmake[1]: Entering directory '/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_91dab.dir/RWLOCK.cpp.o
-/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++   -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -o CMakeFiles/cmTC_91dab.dir/RWLOCK.cpp.o -c /media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CheckTypeSize/RWLOCK.cpp
-Linking CXX executable cmTC_91dab
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91dab.dir/link.txt --verbose=1
-/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++  -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -rdynamic CMakeFiles/cmTC_91dab.dir/RWLOCK.cpp.o -o cmTC_91dab 
-gmake[1]: Leaving directory '/media/sf_ans/beamforming/webrtc-beamforming/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0b060/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0b060.dir/build.make CMakeFiles/cmTC_0b060.dir/build
+gmake[1]: Entering directory '/media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0b060.dir/RWLOCK.cpp.o
+/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++   -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -o CMakeFiles/cmTC_0b060.dir/RWLOCK.cpp.o -c /media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CheckTypeSize/RWLOCK.cpp
+Linking CXX executable cmTC_0b060
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b060.dir/link.txt --verbose=1
+/home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++  -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11  -rdynamic CMakeFiles/cmTC_0b060.dir/RWLOCK.cpp.o -o cmTC_0b060 
+gmake[1]: Leaving directory '/media/sf_ans/beamforming/mic2_bf/build/CMakeFiles/CMakeTmp'
 
 
 

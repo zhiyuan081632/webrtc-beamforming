@@ -4,7 +4,7 @@
 # compile CXX with /home/zhihui/work/tool/T113/gcc-linaro-7.3.1-2018.05-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-g++
 CXX_DEFINES = -DGFLAGS_IS_A_DLL=0 -DNO_THREADS
 
-CXX_INCLUDES = -I/media/sf_ans/beamforming/webrtc-beamforming/build/gflags/include -I/media/sf_ans/beamforming/webrtc-beamforming/gflags/src -I/media/sf_ans/beamforming/webrtc-beamforming/build/gflags/include/gflags
+CXX_INCLUDES = -I/media/sf_ans/beamforming/mic2_bf/build/gflags/include -I/media/sf_ans/beamforming/mic2_bf/gflags/src -I/media/sf_ans/beamforming/mic2_bf/build/gflags/include/gflags
 
 CXX_FLAGS =  -march=armv7-a -mfpu=neon -mfloat-abi=softfp -std=c++11
 

@@ -462,11 +462,51 @@ int main(int argc, char *argv[]) {
 
             // copy to play buffer
             size_t size_play_needed = num_samples * 4; 
-            for (size_t i = 0, j = 0; i < size_play_needed; i += 4, j += 2) {
+            for (size_t i = 0, j = 0, k = 0; i < size_play_needed; i += 4, j += 2, k += 6) {
                 // 假设buff_play是char类型，并且每个样本需要2字节（即16位）
-                reinterpret_cast<int16_t*>(buff_play)[i/2] = interleaved[j];
-                reinterpret_cast<int16_t*>(buff_play)[(i/2) + 1] = interleaved[j+1];
+                // reinterpret_cast<int16_t*>(buff_play)[i/2] = interleaved[j]; // bf to line-out-L
+                reinterpret_cast<int16_t*>(buff_play)[i/2] = *reinterpret_cast<int16_t*>(&buff_record[k]); // mic1 to line-out-L
+                reinterpret_cast<int16_t*>(buff_play)[(i/2) + 1] = interleaved[j]; // bf to line-out-R
             }
+        }
+        else {
+            // BF process simulation
+            clock_t start, end;
+            start = clock();
+           
+            // copy to interleaved buffer
+            size_t num_samples = size_record / 6; 
+            for (size_t i = 0, j = 0; i < size_record && j < num_samples*2; i += 6, j += 2) {
+                // 提取第1和3通道
+                int16_t sample1 = *reinterpret_cast<int16_t*>(&buff_record[i]);
+                int16_t sample3 = *reinterpret_cast<int16_t*>(&buff_record[i + 4]);
+
+                // 将提取的样本保存到interleaved中
+                interleaved[j] = sample1;
+                interleaved[j + 1] = sample3;
+            }
+
+            FloatS16ToFloat(&interleaved[0], interleaved.size(), &interleaved[0]);
+            Deinterleave(&interleaved[0], in_buf.num_frames(), in_buf.num_channels(), in_buf.channels());
+
+            // process
+            bf.ProcessChunk(in_buf, &out_buf);
+
+            Interleave(out_buf.channels(), out_buf.num_frames(), out_buf.num_channels(), &interleaved[0]);
+            FloatToFloatS16(&interleaved[0], interleaved.size(), &interleaved[0]);
+
+            // copy to play buffer
+            size_t size_play_needed = num_samples * 4; 
+            for (size_t i = 0, j = 0, k = 0; i < size_play_needed; i += 4, j += 2, k += 6) {
+                // 假设buff_play是char类型，并且每个样本需要2字节（即16位）
+                // reinterpret_cast<int16_t*>(buff_play)[i/2] = interleaved[j]; // bf to line-out-L
+                reinterpret_cast<int16_t*>(buff_play)[i/2] = *reinterpret_cast<int16_t*>(&buff_record[k]); // mic1 to line-out-L
+                reinterpret_cast<int16_t*>(buff_play)[(i/2) + 1] = interleaved[j]; // bf to line-out-R
+            }
+
+            end = clock();
+            // printf("Record  duration(ms): %.3f\n", (double)(frames_record) / PCM_RATE*1000);
+            printf("BF process time(ms): %.3f\n", (double)(end - start) / CLOCKS_PER_SEC*1000);
         }
 
         // write it to the headphones

@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/media/sf_ans/beamforming/webrtc-beamforming/gflags/src/gflags.cc" "gflags/CMakeFiles/gflags_static.dir/src/gflags.cc.o" "gcc" "gflags/CMakeFiles/gflags_static.dir/src/gflags.cc.o.d"
-  "/media/sf_ans/beamforming/webrtc-beamforming/gflags/src/gflags_completions.cc" "gflags/CMakeFiles/gflags_static.dir/src/gflags_completions.cc.o" "gcc" "gflags/CMakeFiles/gflags_static.dir/src/gflags_completions.cc.o.d"
-  "/media/sf_ans/beamforming/webrtc-beamforming/gflags/src/gflags_reporting.cc" "gflags/CMakeFiles/gflags_static.dir/src/gflags_reporting.cc.o" "gcc" "gflags/CMakeFiles/gflags_static.dir/src/gflags_reporting.cc.o.d"
+  "/media/sf_ans/beamforming/mic2_bf/gflags/src/gflags.cc" "gflags/CMakeFiles/gflags_static.dir/src/gflags.cc.o" "gcc" "gflags/CMakeFiles/gflags_static.dir/src/gflags.cc.o.d"
+  "/media/sf_ans/beamforming/mic2_bf/gflags/src/gflags_completions.cc" "gflags/CMakeFiles/gflags_static.dir/src/gflags_completions.cc.o" "gcc" "gflags/CMakeFiles/gflags_static.dir/src/gflags_completions.cc.o.d"
+  "/media/sf_ans/beamforming/mic2_bf/gflags/src/gflags_reporting.cc" "gflags/CMakeFiles/gflags_static.dir/src/gflags_reporting.cc.o" "gcc" "gflags/CMakeFiles/gflags_static.dir/src/gflags_reporting.cc.o.d"
   )
 
 # Targets to which this target links.
