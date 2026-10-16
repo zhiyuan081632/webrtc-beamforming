@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/mnt/d/project/prjSE/src/BF/beamforming/mic2_bf/build_host/cmake_install.cmake",
+		"/mnt/d/project/prjSE/src/BF/beamforming/mic2_bf/build_host/gflags/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

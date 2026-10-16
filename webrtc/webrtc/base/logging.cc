@@ -13,7 +13,7 @@
 #define WIN32_LEAN_AND_MEAN
 #endif
 #include <windows.h>
-#if _MSC_VER < 1900
+#if defined(_MSC_VER) && _MSC_VER < 1900  // MinGW: _MSC_VER 未定义, 已有 C99 snprintf, 不可重定义
 #define snprintf _snprintf
 #endif
 #undef ERROR  // wingdi.h

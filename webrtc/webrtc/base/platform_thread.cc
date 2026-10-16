@@ -56,7 +56,7 @@ bool IsThreadRefEqual(const PlatformThreadRef& a, const PlatformThreadRef& b) {
 }
 
 void SetCurrentThreadName(const char* name) {
-#if defined(WEBRTC_WIN)
+#if defined(WEBRTC_WIN) && defined(_MSC_VER)  // MinGW gcc 无 SEH(__try/__except), 跳过线程命名
   struct {
     DWORD dwType;
     LPCSTR szName;
